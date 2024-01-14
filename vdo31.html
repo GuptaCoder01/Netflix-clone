@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         :root{
+            --color: aqua;
+            --seccolor: #ccced1;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav{
+            background-color:var(--color);
+        }
+        ul{
+            display: flex;
+        } 
+        ul li{
+            list-style: none;
+            padding: 9px;
+            margin: 9px;
+            opacity: 0.8;
+        }
+        ul li:first-child{
+            --color: rgb(255, 255, 255);
+            background-color: var(--color);
+        }
+         .container{
+            background-color: var(--seccolor);
+         }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Servide</li>
+            <li>contact</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eos c
+            onsequatur, magni vel harum perferendis consectet
+
+            , minima adipisci?</p>
+    </div>
+
+</body>
+
+</html>
